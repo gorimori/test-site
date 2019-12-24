@@ -1,0 +1,30 @@
+{
+  "name": "test-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorimori/test-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gorimori/test-site/issues"
+  },
+  "homepage": "https://github.com/gorimori/test-site#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "@types/node": "^13.1.0",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.4"
+  }
+}
