@@ -13,6 +13,12 @@ const Text: React.FC<{ content: string }> = ({ content }) => (
   <span className="breadcrumb__text">{content}</span>
 );
 
+const Link: React.FC<Item> = ({ href, text }) => (
+  <a href={href} className="breadcrumb__link">
+    <Text content={text} />
+  </a>
+);
+
 export const Breadcrumb: React.FC<Prop> = ({ items }) => (
   <nav className="breadcrumb">
     <ul className="breadcrumb__inner">
@@ -21,9 +27,7 @@ export const Breadcrumb: React.FC<Prop> = ({ items }) => (
           {items.length === i + 1 ? (
             <Text content={text} />
           ) : (
-            <a href={href} className="breadcrumb__link">
-              <Text content={text} />
-            </a>
+            <Link href={href} text={text} />
           )}
         </li>
       ))}
