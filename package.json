@@ -5,7 +5,8 @@
   "main": "",
   "type": "commonjs",
   "scripts": {
-    "build": "tsc && eleventy"
+    "build": "tsc && eleventy",
+    "watch": "tsc -w & eleventy --serve"
   },
   "repository": {
     "type": "git",
