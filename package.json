@@ -21,7 +21,7 @@
   "homepage": "https://github.com/gorimori/test-site#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
-    "@types/node": "^13.1.0",
+    "@types/node": "^13.1.2",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
     "react": "^16.12.0",
